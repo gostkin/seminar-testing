@@ -1,0 +1,6 @@
+[submodule "deps/gtest"]
+	path = deps/gtest
+	url = https://github.com/google/googletest.git
+[submodule "deps/cotire"]
+	path = deps/cotire
+	url = https://github.com/sakra/cotire.git

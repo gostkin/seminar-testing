@@ -1,0 +1,29 @@
+language: cpp
+
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-7
+      - g++-7
+      - cmake
+      - cmake-data
+      - valgrind
+
+os:
+  - linux
+
+compiler:
+  - gcc
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ../ -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
+  - make
+  - ./TESTS
+  - valgrind ./TESTS
+
+sudo: required

@@ -1,0 +1,6 @@
+#ifndef SEMINAR_TESTING_STDAFX_HPP
+#define SEMINAR_TESTING_STDAFX_HPP
+
+#include <memory>
+
+#endif //SEMINAR_TESTING_STDAFX_HPP
