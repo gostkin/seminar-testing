@@ -11,6 +11,7 @@ get_filename_component(STDAFX_FULL_PATH "src/lib/StdAfx.hpp" ABSOLUTE)
 get_filename_component(STDAFX_MAIN_FULL_PATH "src/main/StdAfxMain.hpp" ABSOLUTE)
 
 set(APPLIB_SOURCE_FILES
+        src/lib/Stack.hpp
         src/lib/StdAfx.cpp
         src/lib/StdAfx.hpp
         )
@@ -23,6 +24,7 @@ set(APP_SOURCE_FILES
 
 set(TESTS_SOURCE_FILES
         src/test/TestMain.cpp
+        src/test/TestStack.cpp
         src/test/StdAfxTest.cpp
         src/test/StdAfxTest.hpp
         )

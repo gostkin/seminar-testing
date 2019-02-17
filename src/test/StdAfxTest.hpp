@@ -9,4 +9,6 @@
 
 #include <gtest/gtest.h>
 
+#define TESTING
+
 #endif //SEMINAR_TESTING_STDAFXTEST_HPP
