@@ -1,3 +1,8 @@
+#
+# Copyright (c) 2019 Eugene Gostkin
+# Distributed under Apache 2.0 license (see LICENSE FILE)
+#
+
 cmake_minimum_required(VERSION 3.6.0)
 
 set(CMAKE_CXX_STANDARD 17)

@@ -1,3 +1,8 @@
+#
+# Copyright (c) 2019 Eugene Gostkin
+# Distributed under Apache 2.0 license (see LICENSE FILE)
+#
+
 function(configure_include_dirs)
     target_include_directories(AppLib PUBLIC src/lib deps/gtest/googletest/include)
     target_include_directories(App PUBLIC src/main)
